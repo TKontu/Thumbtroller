@@ -5081,6 +5081,16 @@
 		(sheetfile "controller.kicad_sch")
 		(attr smd)
 		(fp_line
+			(start -1.4 -0.45)
+			(end -1.4 0.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "efdccf03-2d07-48ca-8d73-399d1901a811")
+		)
+		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
 			(stroke
@@ -5995,6 +6005,16 @@
 		(sheetname "/")
 		(sheetfile "controller.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.4 -0.45)
+			(end -1.4 0.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "45d7d7f7-257f-4311-8664-c0aa85ae0efd")
+		)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
