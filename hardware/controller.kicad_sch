@@ -9157,13 +9157,65 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 304.8) (xy 282.575 304.8)
+			(xy 241.3 304.8) (xy 267.335 304.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba99a543-3bf8-4324-8e93-4c4e31adb1d1")
+		(uuid "e7203f8b-6d8b-46dd-9d51-8a1619cbb648")
+	)
+	(wire
+		(pts
+			(xy 267.335 304.8) (xy 277.495 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9d74a1-3b37-4ce4-9380-38d698bb4c74")
+	)
+	(wire
+		(pts
+			(xy 277.495 304.8) (xy 282.575 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c739fa0-6961-4712-84b2-85b6eaf490a9")
+	)
+	(wire
+		(pts
+			(xy 267.335 304.8) (xy 267.335 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b69f5bb-df4d-4f46-81fa-47fcd6fe8ba2")
+	)
+	(wire
+		(pts
+			(xy 277.495 304.8) (xy 277.495 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5404a1-cd98-4a06-a174-f06be0e9dd82")
+	)
+	(junction
+		(at 267.335 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74136820-78e6-4552-888c-46a45c289af7")
+	)
+	(junction
+		(at 277.495 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ec7ca9-338d-4a8d-8cc7-d2c1fda115af")
 	)
 	(wire
 		(pts
@@ -11718,6 +11770,140 @@
 			(project "controller"
 				(path "/11c7bd96-786c-4c10-b71b-7b198cc052d5"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 267.335 314.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16e279a2-c044-4107-9879-3b69a9620d0c")
+		(property "Reference" "#PWR066"
+			(at 267.335 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.335 319.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.335 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.335 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.335 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf120d5-80ec-42c9-ba58-8f0381e80ea4")
+		)
+		(instances
+			(project "controller"
+				(path "/11c7bd96-786c-4c10-b71b-7b198cc052d5"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 277.495 314.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd722f6d-f6b3-4432-a167-fbade7e2c386")
+		(property "Reference" "#PWR065"
+			(at 277.495 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 277.495 319.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.495 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.495 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.495 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2072717-392a-4eef-9e71-1b75f3b46356")
+		)
+		(instances
+			(project "controller"
+				(path "/11c7bd96-786c-4c10-b71b-7b198cc052d5"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -14628,6 +14814,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 267.335 311.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a699a89-0ff2-4078-bd6e-6926c129f9a3")
+		(property "Reference" "C21"
+			(at 269.875 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 269.875 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 267.335 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.335 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.335 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "133cc24d-3311-4cb0-85ad-f83e2d83a7be")
+		)
+		(pin "2"
+			(uuid "f8ddead8-5180-495c-be2e-29d02acb5122")
+		)
+		(instances
+			(project "controller"
+				(path "/11c7bd96-786c-4c10-b71b-7b198cc052d5"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 295.91 112.395 0)
 		(unit 1)
@@ -17379,7 +17634,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "100K"
 			(at 286.385 307.975 90)
 			(effects
 				(font
@@ -17424,6 +17679,75 @@
 			(project "controller"
 				(path "/11c7bd96-786c-4c10-b71b-7b198cc052d5"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 277.495 311.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcbb43d2-7dfb-4c08-89f3-3052e8ff0793")
+		(property "Reference" "R28"
+			(at 280.035 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 280.035 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 277.495 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 277.495 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.495 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca454ed2-b8d6-405d-88da-091a4b38a600")
+		)
+		(pin "2"
+			(uuid "1dcfc4f3-a4e8-43fe-8edc-cc31909daacb")
+		)
+		(instances
+			(project "controller"
+				(path "/11c7bd96-786c-4c10-b71b-7b198cc052d5"
+					(reference "R28")
 					(unit 1)
 				)
 			)
